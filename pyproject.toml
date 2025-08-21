@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "website-downloader"
+version = "0.1.0"
+description = "A Python application to download websites by scraping HTML, files, and media."
+authors = ["Your Name <your.email@example.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.26.0"
+beautifulsoup4 = "^4.10.0"
+lxml = "^4.6.3"
+tqdm = "^4.62.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
